@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-fullstack-vuejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": "git+https://github.com/p-lacerda/ecommerce-fullstack-vuejs.git",
+  "keywords": [],
+  "author": "p-lacerda <xcloudgameemail@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p-lacerda/ecommerce-fullstack-vuejs/issues"
+  },
+  "homepage": "https://github.com/p-lacerda/ecommerce-fullstack-vuejs#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^7.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
